@@ -2,11 +2,17 @@ define(['knockout', 'src/hidden'], function(ko, hidden) {
 
   describe('Hidden', function() {
     var viewModel;
+    var element;
     var root;
 
+    before(function () {
+      root = document.createElement('div');
+      root.innerHTML = '<input id="input" data-bind="hidden:obs">';
+      document.body.appendChild(root);
+      element = document.getElementById('input');
+    });
+
     beforeEach(function() {
-      document.body.innerHTML = '<input id="input" data-bind="hidden:obs">';
-      root = document.getElementById('input');
       viewModel = {
         obs: ko.observable()
       };
@@ -19,7 +25,7 @@ define(['knockout', 'src/hidden'], function(ko, hidden) {
     });
 
     it('should be bound', function() {
-      expect(ko.dataFor(root)).to.be(viewModel);
+      expect(ko.dataFor(element)).to.be(viewModel);
     });
 
   });
