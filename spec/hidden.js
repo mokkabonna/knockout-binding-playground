@@ -1,6 +1,6 @@
-define(['knockout', 'src/hidden'], function(ko, Hidden ) {
+define(['knockout', 'src/hidden'], function(ko, hidden) {
 
-  describe(' Hidden', function() {
+  describe('Hidden', function() {
     var viewModel;
     var root;
 
