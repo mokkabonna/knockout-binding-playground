@@ -19,7 +19,7 @@ define(['knockout', 'src/hidden'], function(ko, Hidden ) {
     });
 
     it('should be tested', function() {
-      expect(true).to.be.false();
+      expect(true).to.be(false);
     });
 
   });
