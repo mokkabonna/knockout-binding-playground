@@ -1,0 +1,14 @@
+{
+  "name": "knockout.bindingHandlers.hidden",
+  "main": "src/hidden.js",
+  "version": "0.0.0",
+  "ignore": [
+    "**/*"
+  ],
+  "dependencies": {
+    "knockout.js": ">=2.0.0"
+  },
+  "devDependencies": {
+    "requirejs": "2.0.6"
+  }
+}
