@@ -1,6 +1,6 @@
 # Hidden binding for knockout
 
-[![Build status](https://travis-ci.org//knockout.bindingHandlers.hidden.png)](https://travis-ci.org//knockout.bindingHandlers.hidden)
+[![Build status](https://travis-ci.org/mokkabonna/knockout.bindingHandlers.hidden.png)](https://travis-ci.org/mokkabonna/knockout.bindingHandlers.hidden)
 
 ## Usage
 
