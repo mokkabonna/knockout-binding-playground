@@ -5,4 +5,4 @@ require.config({
   }
 });
 
-require(['helper', 'tests/hidden'], window.__karma__.start);
+require(['spec/hidden'], window.__karma__.start);
