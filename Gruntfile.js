@@ -20,6 +20,10 @@
         }
       },
       'bower-verify': {
+        options: {
+          showTasksOutput: false,
+          completeOnError: true
+        },
         test: {
           tasks: ['karma:once']
         }
